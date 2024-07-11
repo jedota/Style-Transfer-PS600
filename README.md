@@ -1,7 +1,7 @@
 # Style-Transfer Print/Scan
 This repository describes the complementary material for the paper: "Generating Automatically Print/Scan Textures for Morphing Attack Detection Applications". This process focuses on simulating the handcrafted print/scan texture used to create print/scan version images automatically from bona fide examples. This scenario allows us to train in single and differential morphing Attacks. 
 
-This repository describes the Tarsfer-style method based on GANs.
+This repository describes the Transfer-style method based on GANs.
 
 # Paper under revision process.
 
