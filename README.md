@@ -12,7 +12,8 @@ This repository contains complementary information for the publication "Generati
 Pending
 
 # Example images
-<img width="642" alt="examples-ps600" src="https://github.com/jedota/Style-Transfer-PS600/assets/45126159/ace5fd52-6acf-406c-b32a-0918f531f041">
+<img width="823" alt="Example-ps600-caption" src="https://github.com/jedota/Style-Transfer-PS600/assets/45126159/577164af-6b85-46ca-bc4c-cf5dac331042">
+
 
 # Cite
 Pending
