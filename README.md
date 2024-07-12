@@ -16,8 +16,8 @@ git clone https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 cd pytorch-CycleGAN-and-pix2pix
 ```
 - Install PyTorch and 0.4+ and other dependencies (e.g., torchvision, visdom)
-For pip users, please type the command pip install -r requirements.txt.
-For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
+- For pip users, please type the command pip install -r requirements.txt.
+- For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
 # Pre-trained models
   - Downloading weights (Soon)
