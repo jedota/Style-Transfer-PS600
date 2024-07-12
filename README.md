@@ -19,7 +19,7 @@ cd pytorch-CycleGAN-and-pix2pix
 For pip users, please type the command pip install -r requirements.txt.
 For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
-# Pre-trained networks
+# Pre-trained models
   - Downloading weights (Soon)
 
 # Generate your own PS600 images:
