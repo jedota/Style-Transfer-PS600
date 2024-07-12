@@ -23,9 +23,15 @@ For Conda users, you can create a new Conda environment using conda env create -
 # Pre-trained networks
   - Downloading weights (Soon)
 
-# Instalation
-Pending
+# Generate your own PS600 images:
+- Pix2pix
+- CycleGAN
+```
+python test.py --dataroot datasets/face/testA --name CycleGANps600-noflip-pixel --model test --no_dropout  
+```
+The option --model test is used for generating results of CycleGAN only for one side. This option will automatically set --dataset_mode single, which only loads the images from one set. On the contrary, using --model cycle_gan requires loading and generating results in both directions, which is sometimes unnecessary. The results will be saved at ./results/. Use --results_dir {directory_path_to_save_result} to specify the results directory.
 
+For pix2pix and your own models, you need to explicitly specify --netG, --norm, --no_dropout to match the generator architecture of the trained model. 
 # Example images
 <p align="center">
 <img width="823" alt="Example-ps600-caption" src="https://github.com/jedota/Style-Transfer-PS600/assets/45126159/577164af-6b85-46ca-bc4c-cf5dac331042">
