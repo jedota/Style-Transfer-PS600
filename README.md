@@ -12,10 +12,11 @@ This repository describes the Transfer-style method based on GANs.
 
 # Getting Started
 - Clone this repo:
-'''
+- 
+```
 git clone https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 cd pytorch-CycleGAN-and-pix2pix
-'''
+```
 
 # Pre-trained networks
   - Downloading weights (Soon)
