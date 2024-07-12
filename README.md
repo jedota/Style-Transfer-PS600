@@ -20,7 +20,8 @@ cd pytorch-CycleGAN-and-pix2pix
 - For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
 # Pre-trained models
-  - Downloading weights (Soon)
+  - Downloading (Soon)
+  - Paper under revision process.
 
 # Generate your own PS600 images:
 - Pix2pix
