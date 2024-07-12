@@ -3,7 +3,7 @@ This repository describes the complementary material for the paper: "Generating 
 
 This repository describes the Transfer-style method based on GANs.
 
-# Paper under revision process.
+-Paper under revision process.
 
 # Pre-requisite
 -Linux
