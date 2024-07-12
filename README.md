@@ -38,8 +38,8 @@ For pix2pix and your own models, you need to explicitly specify --netG, --norm, 
 </p>
 
 # Complentary model
-- A secondary semi-automatic  texture transfer method was also developed.
-- Implementation is available in: 
+- A secondary semi-automatic texture transfer method was also developed.
+- Implementation is available at: https://github.com/jedota/Semi-Auto-Transfer-PS600
 
 # Cite
 Pending
