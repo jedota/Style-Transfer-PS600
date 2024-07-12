@@ -2,12 +2,12 @@
 This repository describes the complementary material for the paper: "Generating Automatically Print/Scan Textures for Morphing Attack Detection Applications". This process focuses on simulating the handcrafted print/scan texture used to create print/scan version images automatically from bona fide examples. This scenario allows us to train in single and differential morphing Attacks. 
 
 This repository describes the Transfer-style method-based GANs using a PyTorch-CycleGAN-and-pix2pix implementation
--Paper under revision process.
+- Paper under revision process.
 
 # Pre-requisite
--Linux
--Python 3
--CPU or NVIDIA GPU + CUDA CuDNN
+- Linux
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
 
 # Getting Started
 - Clone this repo:
@@ -15,7 +15,7 @@ This repository describes the Transfer-style method-based GANs using a PyTorch-C
 git clone https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 cd pytorch-CycleGAN-and-pix2pix
 ```
--Install PyTorch and 0.4+ and other dependencies (e.g., torchvision, visdom)
+- Install PyTorch and 0.4+ and other dependencies (e.g., torchvision, visdom)
 For pip users, please type the command pip install -r requirements.txt.
 For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
