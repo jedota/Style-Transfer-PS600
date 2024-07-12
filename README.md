@@ -37,6 +37,9 @@ For pix2pix and your own models, you need to explicitly specify --netG, --norm, 
 <img width="823" alt="Example-ps600-caption" src="https://github.com/jedota/Style-Transfer-PS600/assets/45126159/577164af-6b85-46ca-bc4c-cf5dac331042">
 </p>
 
+# Complentary model
+- A secondary semi-automatic  texture transfer method was also developed.
+- Implementation is available in: 
 
 # Cite
 Pending
