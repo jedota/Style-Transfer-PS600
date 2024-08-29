@@ -26,10 +26,17 @@ cd pytorch-CycleGAN-and-pix2pix
 # Generate your own PS600 images:
 - Pix2pix
 - CycleGAN
+
+Original test.py instruccion
 ```
 python test.py --dataroot datasets/face/testA --name CycleGANps600-noflip-pixel --model test --no_dropout  
 ```
 The option --model test is used to generate results of CycleGAN only for one side. This option will automatically set --dataset_mode single, which only loads the images from one set. On the contrary, using --model cycle_gan requires loading and generating results in both directions, which is sometimes unnecessary. The results will be saved at ./results/. Use --results_dir {directory_path_to_save_result} to specify the results directory.
+
+Suggested test.py instruccion
+```
+python test.py --checkpoints_dir ...(yourcheeckponts folder) --dataroot ...(your bna fide or source images) --name cycleps600--resnet9v1 --netG resnet_9blocks --norm instance --proprocess scale_width --result_dir ..folder top save the images --dataset_mode single --no_dropout
+```
 
 For pix2pix and your own models, you need to explicitly specify --netG, --norm, --no_dropout to match the generator architecture of the trained model. 
 # Example images
