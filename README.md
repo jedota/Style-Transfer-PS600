@@ -20,9 +20,9 @@ cd pytorch-CycleGAN-and-pix2pix
 - For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
 # Pre-trained models
--All the models were trained 300 epochs.
--The models shared are the latest.
--Available from 1 to 300. (if you'd like to look for the best from 300 models, please feel free to email contact).
+- All the models were trained 300 epochs.
+- The models shared are the latest.
+- Checkpoint is available from 1 to 300. (if you'd like to look for the best from 300 models, please feel free to request them by email).
   - Downloading (Soon)
     * cycleps600-resnet9v1
     * cycleps600-resnet6v1
