@@ -20,7 +20,12 @@ cd pytorch-CycleGAN-and-pix2pix
 - For Conda users, you can create a new Conda environment using conda env create -f environment.yml.
 
 # Pre-trained models
+-All the models were trained 300 epochs.
+-The models shared are the latest.
+-Available from 1 to 300. (if you'd like to look for the best from 300 models, please feel free to email contact).
   - Downloading (Soon)
+    * cycleps600-resnet9v1
+    * cycleps600-resnet6v1
   - Paper under revision process.
 
 # Generate your own PS600 images:
@@ -35,7 +40,7 @@ The option --model test is used to generate results of CycleGAN only for one sid
 
 Suggested test.py instruccion
 ```
-python test.py --checkpoints_dir ...(yourcheeckponts folder) --dataroot ...(your bna fide or source images) --name cycleps600--resnet9v1 --netG resnet_9blocks --norm instance --proprocess scale_width --result_dir ..folder top save the images --dataset_mode single --no_dropout
+python test.py --checkpoints_dir ...(yourcheeckponts folder) --dataroot ...(your bona fide or source images) --name cycleps600-resnet9v1 --netG resnet_9blocks --norm instance --proprocess scale_width --result_dir ..folder top save the images --dataset_mode single --no_dropout
 ```
 
 For pix2pix and your own models, you need to explicitly specify --netG, --norm, --no_dropout to match the generator architecture of the trained model. 
