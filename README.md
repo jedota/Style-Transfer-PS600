@@ -40,7 +40,7 @@ The option --model test is used to generate results of CycleGAN only for one sid
 
 Suggested test.py instruccion
 ```
-python test.py --checkpoints_dir ...(yourcheeckponts folder) --dataroot ...(your bona fide or source images) --name cycleps600-resnet9v1 --netG resnet_9blocks --norm instance --proprocess scale_width --result_dir ..folder top save the images --dataset_mode single --no_dropout
+python test.py --checkpoints_dir ...(your cheeckponts folder) --dataroot ...(your bona fide or source images) --name cycleps600-resnet9v1 --netG resnet_9blocks --norm instance --proprocess scale_width --result_dir ..folder to save the images --dataset_mode single --no_dropout
 ```
 
 For pix2pix and your own models, you need to explicitly specify --netG, --norm, --no_dropout to match the generator architecture of the trained model. 
