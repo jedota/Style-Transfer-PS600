@@ -26,7 +26,6 @@ cd pytorch-CycleGAN-and-pix2pix
   - Downloading (Soon)
     * cycleps600-resnet9v1
     * cycleps600-resnet6v1
-  - Paper under revision process.
 
 # Generate your own PS600 images:
 - Pix2pix
